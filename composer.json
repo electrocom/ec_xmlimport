@@ -1,0 +1,25 @@
+{
+  "name": "kmkm2/ec_xmlfeed",
+  "description": "FEEDXML",
+  "homepage": "https://github.com/PrestaShop/formexamples",
+  "license": "AFL - Academic Free License (AFL 3.0)",
+  "authors": [
+    {
+      "name": "kmkm2",
+      "email": "kontakt@electrocom.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PrestaShop\\Module\\Ec_Xmlimport\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "servo/fluidxml": "^1.21"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}
