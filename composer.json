@@ -1,6 +1,6 @@
 {
-  "name": "kmkm2/ec_xmlfeed",
-  "description": "FEEDXML",
+  "name": "kmkm2/ec_xmlimport",
+  "description": "Import Xml",
   "homepage": "https://github.com/PrestaShop/formexamples",
   "license": "AFL - Academic Free License (AFL 3.0)",
   "authors": [
