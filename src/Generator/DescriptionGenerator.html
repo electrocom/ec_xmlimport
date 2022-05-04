@@ -1,0 +1,21 @@
+
+{foreach from=$rows  key=key item=section}
+<p class="section-label" role="button" data-toggle="collapse" aria-expanded="true" data-target="#section-{$key|replace:' ':''}">
+  <i class="fa fa-sort-desc" aria-hidden="true"></i> {$key}
+</p>
+
+<div id="section-{$key|replace:' ':''}" class="section collapse in" aria-expanded="true" style="">
+
+<table class="actionsa-specyfikacje-table">
+  <tbody>
+  {foreach from=$section item=i}
+  <tr>
+    <td class="name">{$i.name}</td>
+    <td class="value">{$i.value} </td>
+  </tr>
+  {/foreach}
+  </tbody></table>
+
+</div>
+
+{/foreach}
